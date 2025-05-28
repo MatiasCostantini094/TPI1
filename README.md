@@ -3,9 +3,9 @@
 📍 *Universidad Tecnológica Nacional*
 
 ## ✨ Estudiantes
-**Nombre:** Matias Ezequiel Costantini
-**Nombre:** 
-**Comisión:** 12
+-**Nombre:** Matias Ezequiel Costantini
+-**Nombre:** 
+-**Comisión:** 12
 
 ## 📌 Estructura del repositorio:
 
