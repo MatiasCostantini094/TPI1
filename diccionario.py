@@ -25,6 +25,7 @@ class DiccionarioABB:
 
     # Método auxiliar recursivo para insertar una palabra en el árbol binario
     def _agregar_recursivo(self, nodo_actual, palabra, definicion):
+        palabra = palabra.lower()  # Asegura que la comparación sea siempre en minúsculas
         if palabra < nodo_actual.palabra:  # Si la palabra es menor, va a la izquierda
             if nodo_actual.hijo_izquierdo is None:
                 nodo_actual.hijo_izquierdo = Nodo(palabra, definicion)
@@ -35,6 +36,7 @@ class DiccionarioABB:
                 nodo_actual.hijo_derecho = Nodo(palabra, definicion)
             else:
                 self._agregar_recursivo(nodo_actual.hijo_derecho, palabra, definicion)
+        # Si la palabra es igual, no se inserta (no se permiten duplicados)
 
     # Método para buscar una palabra en el diccionario
     def buscar_palabra(self, palabra):
