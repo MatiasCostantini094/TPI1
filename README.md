@@ -4,8 +4,8 @@
 - **Trabajo Practico Integrador**
 - **Investigación Aplicada: Implementación de un Diccionario mediante Árboles Binarios de Búsqueda en Python**
 ## ✨ Estudiantes
+- **Nombre:** Ivan Daniliuk
 - **Nombre:** Matias Ezequiel Costantini
-- **Nombre:** 
 - **Comisión:** 12
 
 ## 📌 Estructura del repositorio:
